@@ -2,34 +2,25 @@
 
 ===============启动zkverify脚本================
 
-wget -O start.sh https://raw.githubusercontent.com/jiangyaqiii/QuilStart/main/start.sh && chmod +x start.sh && ./start.sh
+wget -O start.sh https://raw.githubusercontent.com/jiangyaqiii/zkverify/main/get_Babe_ImOnline.sh && chmod +x get_Babe_ImOnline.sh && ./get_Babe_ImOnline.sh
 
 ===========================================
 
 ===============重启quil脚本================
 
-wget -O restart.sh https://raw.githubusercontent.com/jiangyaqiii/QuilStart/main/restart.sh && chmod +x restart.sh && ./restart.sh
+wget -O get_Babe_ImOnline.sh https://raw.githubusercontent.com/jiangyaqiii/zkverify/main/get_Babe_ImOnline.sh && chmod +x get_Babe_ImOnline.sh && ./get_Babe_ImOnline.sh
 
 ===========================================
 
 ===============启动zkverify脚本================
 
-wget -O start.sh https://raw.githubusercontent.com/jiangyaqiii/QuilStart/main/start.sh && chmod +x start.sh && ./start.sh
+wget -O get_Babe_ImOnline.sh https://raw.githubusercontent.com/jiangyaqiii/zkverify/main/get_Babe_ImOnline.sh && chmod +x get_Babe_ImOnline.sh && ./get_Babe_ImOnline.sh
 
 ===========================================
 
 ===============重启quil脚本================
 
-wget -O restart.sh https://raw.githubusercontent.com/jiangyaqiii/QuilStart/main/restart.sh && chmod +x restart.sh && ./restart.sh
+wget -O get_Babe_ImOnline.sh https://raw.githubusercontent.com/jiangyaqiii/zkverify/main/get_Babe_ImOnline.sh && chmod +x get_Babe_ImOnline.sh && ./get_Babe_ImOnline.sh
 
 ===========================================
 
-===============启动zkverify脚本================
-
-wget -O start.sh https://raw.githubusercontent.com/jiangyaqiii/QuilStart/main/start.sh && chmod +x start.sh && ./start.sh
-
-===========================================
-
-===============重启quil脚本================
-
-wget -O restart.sh https://raw.githubusercontent.com/jiangyaqiii/QuilStart/main/restart.sh && chmod +x restart.sh && ./restart.sh
