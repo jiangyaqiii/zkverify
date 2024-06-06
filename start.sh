@@ -43,19 +43,26 @@ su - zkverify
 git clone https://github.com/HorizenLabs/compose-zkverify-simplified.git
 cd compose-zkverify-simplified
 #启动rpc需要选择参数
+echo ''
+echo '启动rpc'
 scripts/init.sh
 docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/rpc-node/testnet/docker-compose.yml up -d
 docker container ls
 
 #启动boot节点需要选择参数
+echo ''
+echo '启动boot节点'
 scripts/init.sh
 docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/boot-node/testnet/docker-compose.yml up -d
 docker container ls
 
 #启动validator节点需要选择参数
+echo ''
+echo '启动validator节点'
 scripts/init.sh
 docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/validator-node/testnet/docker-compose.yml up -d
 docker container ls
+rm -f start.sh
 
 
 
