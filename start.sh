@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 设置要检查的用户名
-EXPECTED_USER="zkverify"
+EXPECTED_USER="zkverify1"
 
 # 获取当前实际运行脚本的用户名
 CURRENT_USER=$(whoami)
