@@ -38,7 +38,7 @@ jq --version
 sudo usermod -aG docker zkverify
 
 #切换到普通用户下
-su - zkverify
+su - zkverify <<EOF
 
 git clone https://github.com/HorizenLabs/compose-zkverify-simplified.git
 cd compose-zkverify-simplified
