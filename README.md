@@ -1,6 +1,12 @@
 # zkverify
 
-===============启动zkverify脚本================
+===============创建普通用户zkverify脚本，zk安装脚本需要普通用户运行================
+
+wget -O adduser.sh https://raw.githubusercontent.com/jiangyaqiii/zkverify/main/adduser.sh && chmod +x adduser.sh && ./adduser.sh
+
+===========================================
+
+===============以zkverify账户登录，启动zkverify脚本================
 
 wget -O start.sh https://raw.githubusercontent.com/jiangyaqiii/zkverify/main/start.sh && chmod +x start.sh && ./start.sh
 
