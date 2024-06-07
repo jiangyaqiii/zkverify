@@ -11,7 +11,7 @@ echo '由于zkverify节点只能在普通用户环境下按照，所以需要设
 echo ''
 # read -p "请输入你的普通用户名: " username
 read -p "请输入你的普通用户名登录密码: " password
-username=zkverify
+username=zkverify1
 # password=Aa112211.
 # 创建新用户
 sudo adduser $username --gecos "" --disabled-password
