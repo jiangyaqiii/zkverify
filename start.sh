@@ -63,23 +63,23 @@ cd compose-zkverify-simplified
 #启动rpc需要选择参数
 echo ''
 echo '启动rpc'
-sudo scripts/init.sh
-sudo docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/rpc-node/testnet/docker-compose.yml up -d
-sudo docker container ls
+scripts/init.sh
+docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/rpc-node/testnet/docker-compose.yml up -d
+docker container ls
 
 #启动boot节点需要选择参数
 echo ''
 echo '启动boot节点'
-sudo scripts/init.sh
-sudo docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/boot-node/testnet/docker-compose.yml up -d
-sudo docker container ls
+scripts/init.sh
+docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/boot-node/testnet/docker-compose.yml up -d
+docker container ls
 
 #启动validator节点需要选择参数
 echo ''
 echo '启动validator节点'
-sudo scripts/init.sh
-sudo docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/validator-node/testnet/docker-compose.yml up -d
-sudo docker container ls
+scripts/init.sh
+docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/validator-node/testnet/docker-compose.yml up -d
+docker container ls
 cd
 sudo rm -f start.sh
 
