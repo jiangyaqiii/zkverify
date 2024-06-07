@@ -25,7 +25,5 @@ echo "User $username created with the password provided."
 echo "$username   ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 echo "已为用户 $username 添加 sudo 无需密码权限！"
-echo ''
-echo '已切换为普通用户环境'
-su - $username
+
 
