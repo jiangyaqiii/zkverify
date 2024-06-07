@@ -58,7 +58,7 @@ sudo jq --version
 #zkverify无需sudo运行docker
 sudo usermod -aG docker zkverify
 
-sudo git clone https://github.com/HorizenLabs/compose-zkverify-simplified.git
+git clone https://github.com/HorizenLabs/compose-zkverify-simplified.git
 cd compose-zkverify-simplified
 #启动rpc需要选择参数
 echo ''
