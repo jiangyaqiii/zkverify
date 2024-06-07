@@ -11,8 +11,6 @@ echo '由于zkverify节点只能在普通用户环境下按照，所以需要设
 echo ''
 read -p "请输入你的普通用户名: " username
 read -p "请输入你的普通用户名登录密码: " password
-echo ''
-echo '普通用户设置完毕，请退出'
 # username=zkverify
 # password=Aa112211.
 # 创建新用户
@@ -27,3 +25,7 @@ echo "User $username created with the password provided."
 echo "$username   ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 echo "已为用户 $username 添加 sudo 无需密码权限！"
+echo ''
+echo '已切换为普通用户环境'
+su - $username
+
