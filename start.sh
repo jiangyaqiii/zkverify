@@ -11,6 +11,8 @@ if [ "$CURRENT_USER" == "$EXPECTED_USER" ]; then
     echo "当前用户与期望用户相同：$EXPECTED_USER"
 else
     echo "当前用户为：$CURRENT_USER，而非期望用户：$EXPECTED_USER"
+    su - $EXPECTED_USER
+    echo '自动切换为期望用户'
 fi
 
 #安装所需软件
