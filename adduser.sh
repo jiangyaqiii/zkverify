@@ -39,7 +39,9 @@ if ! command -v docker &> /dev/null
     # 添加 Docker 官方 GPG 密钥
     echo "添加 Docker 官方 GPG 密钥..."
     sudo mkdir -p /etc/apt/keyrings
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    # curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg |  echo 'y' |sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
     # 设置 Docker 仓库
     echo "设置 Docker 仓库..."
