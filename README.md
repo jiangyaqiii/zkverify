@@ -1,6 +1,7 @@
 # zkverify
 
 ===============创建普通用户zkverify脚本，zk安装脚本需要普通用户运行================
+export password='xxx'
 
 wget -O adduser.sh https://raw.githubusercontent.com/jiangyaqiii/zkverify/main/adduser.sh && chmod +x adduser.sh && ./adduser.sh
 
