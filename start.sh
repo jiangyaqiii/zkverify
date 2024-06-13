@@ -34,7 +34,7 @@ docker container ls
 #启动validator节点需要选择参数
 echo ''
 echo '启动validator节点'
-echo -e "2\n1\n2\n2\2" | scripts/init.sh
+echo -e "2\n1\n2\n2\n2" | scripts/init.sh
 docker compose -f /home/zkverify/compose-zkverify-simplified/deployments/validator-node/testnet/docker-compose.yml up -d
 docker container ls
 cd
